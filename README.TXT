@@ -21,7 +21,7 @@ Ejecución:
   `npm test`
 - Modo debug (con navegador visible):
   `npm run test:debug`
-  *// Remover flag --headless en wdio.conf.ts*
+  // Remover flag --headless en wdio.conf.ts*
 
 Reportes:
 
