@@ -1,0 +1,21 @@
+INFORME TÉCNICO - HALLAZGOS Y OPTIMIZACIONES
+============================================
+
+1. Error crítico resuelto:
+   Fallo en Aserción:
+   Expectativa: Texto en mayúsculas ("THANK YOU FOR YOUR ORDER")
+   Realidad:Implementación usa formato oración ("Thank you for your order!")
+   Solución:
+      Ajuste de aserción con matching exacto
+      Validación cross-browser usando ChromeDriver v135
+
+2. Mejoras Implementadas:
+    Configuración de instancias única para evitar flakiness
+    Estrategia de screenshots por interacción (Photographer)
+    Limpieza de selectores CSS (+robustos vs XPath frágiles)
+
+3. Lecciones Aprendidas:
+
+   Best Practice: Wait explícito + aserción
+   await Wait.until(CheckoutMessage, isVisible())
+   await Ensure.that(Text.of(CheckoutMessage), equals('...'))

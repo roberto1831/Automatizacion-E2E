@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "ES2022",
+        "module": "ES2022",
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "types": ["node", "expect-webdriverio"],
+        "skipLibCheck": true,
+        "noEmit": true
+    },
+    "include": ["test", "wdio.conf.ts"]
+}
