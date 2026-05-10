@@ -106,4 +106,4 @@ Los reportes y evidencias fotográficas se generan automáticamente en:
 
 ## 👤 Autor
 
-**Roberto Toapanta** · [GitHub](https://github.com/roberto1831) · [LinkedIn](https://linkedin.com/in/roberto-toapanta)
+**Roberto Toapanta** · [GitHub](https://github.com/roberto1831) · [LinkedIn](https://linkedin.com/in/roberto-1831)
